@@ -14,6 +14,7 @@ public class TestController {
     @RequestMapping("test")
     public String test() {
         controllerTask.run();
+        System.out.println("111");
         return "OK";
     }
 }
